@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 1rem 0;
+            background: #f4f4f4;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .services, .cars, .contact {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .cars img {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 10px auto;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Harsh's Car Rentals</h1>
+        <p>Reliable and affordable car rental services for your every need.</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#cars">Available Cars</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <p>We provide a variety of car rental options, from economy to luxury vehicles, available for daily, weekly, or monthly rentals.</p>
+            <ul>
+                <li>Airport Transfers</li>
+                <li>Corporate Rentals</li>
+                <li>Long-term Leasing</li>
+                <li>Self-Drive or Chauffeur Driven</li>
+            </ul>
+        </section>
+        <section id="cars" class="cars">
+            <h2>Available Cars</h2>
+            <div>
+                <h3>Economy Car</h3>
+                <img src="https://via.placeholder.com/300" alt="Economy Car">
+                <p>Affordable and fuel-efficient cars for city drives.</p>
+            </div>
+            <div>
+                <h3>Luxury SUV</h3>
+                <img src="https://via.placeholder.com/300" alt="Luxury SUV">
+                <p>Spacious and premium SUVs for comfort and style.</p>
+            </div>
+            <div>
+                <h3>Sports Car</h3>
+                <img src="https://via.placeholder.com/300" alt="Sports Car">
+                <p>High-performance cars for an exhilarating experience.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form action="https://example.com/submit-form" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Harsh's Car Rentals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
